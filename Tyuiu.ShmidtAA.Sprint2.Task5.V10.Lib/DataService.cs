@@ -129,7 +129,14 @@ namespace Tyuiu.ShmidtAA.Sprint2.Task5.V10.Lib
                         }
                         else
                         {
-                            res = $"{n - 1}.{m}.{g}";
+                            if (n > 10)
+                            {
+                                res = $"{n - 1}.0{m}.{g}";
+                            }
+                            else
+                            {
+                                res = $"0{n - 1}.0{m}.{g}";
+                            }
                         }
                     }
                     else
