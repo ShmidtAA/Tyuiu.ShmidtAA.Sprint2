@@ -19,9 +19,17 @@ namespace Tyuiu.ShmidtAA.Sprint2.Task5.V10.Lib
                         if (n == 1)
                         {
                             res = $"31.12.{g - 1}";
-                        }else
+                        }
+                        else
                         {
-                            res = $"{n-1}.{m}.{g}";
+                            if (n > 10)
+                            {
+                                res = $"{n - 1}.0{m}.{g}";
+                            }
+                            else
+                            {
+                                res = $"0{n - 1}.0{m}.{g}";
+                            }
                         }
                     }
                     else
@@ -41,7 +49,14 @@ namespace Tyuiu.ShmidtAA.Sprint2.Task5.V10.Lib
                         }
                         else
                         {
-                            res = $"{n - 1}.{m}.{g}";
+                            if (n > 10)
+                            {
+                                res = $"{n - 1}.0{m}.{g}";
+                            }
+                            else
+                            {
+                                res = $"0{n - 1}.0{m}.{g}";
+                            }
                         }
                     }
                     else
@@ -62,7 +77,14 @@ namespace Tyuiu.ShmidtAA.Sprint2.Task5.V10.Lib
                         }
                         else
                         {
-                            res = $"{n - 1}.{m}.{g}";
+                            if (n > 10)
+                            {
+                                res = $"{n - 1}.0{m}.{g}";
+                            }
+                            else
+                            {
+                                res = $"0{n - 1}.0{m}.{g}";
+                            }
                         }
                     }
                     else
@@ -81,7 +103,14 @@ namespace Tyuiu.ShmidtAA.Sprint2.Task5.V10.Lib
                         }
                         else
                         {
-                            res = $"{n - 1}.{m}.{g}";
+                            if (n > 10)
+                            {
+                                res = $"{n - 1}.0{m}.{g}";
+                            }
+                            else
+                            {
+                                res = $"0{n - 1}.0{m}.{g}";
+                            }
                         }
                     }
                     else
@@ -120,7 +149,14 @@ namespace Tyuiu.ShmidtAA.Sprint2.Task5.V10.Lib
                         }
                         else
                         {
-                            res = $"{n - 1}.{m}.{g}";
+                            if (n > 10)
+                            {
+                                res = $"{n - 1}.0{m}.{g}";
+                            }
+                            else
+                            {
+                                res = $"0{n - 1}.0{m}.{g}";
+                            }
                         }
                     }
                     else
@@ -139,7 +175,14 @@ namespace Tyuiu.ShmidtAA.Sprint2.Task5.V10.Lib
                         }
                         else
                         {
-                            res = $"{n - 1}.{m}.{g}";
+                            if (n > 10)
+                            {
+                                res = $"{n - 1}.0{m}.{g}";
+                            }
+                            else
+                            {
+                                res = $"0{n - 1}.0{m}.{g}";
+                            }
                         }
                     }
                     else
@@ -158,7 +201,14 @@ namespace Tyuiu.ShmidtAA.Sprint2.Task5.V10.Lib
                         }
                         else
                         {
-                            res = $"{n - 1}.{m}.{g}";
+                            if (n > 10)
+                            {
+                                res = $"{n - 1}.0{m}.{g}";
+                            }
+                            else
+                            {
+                                res = $"0{n - 1}.0{m}.{g}";
+                            }
                         }
                     }
                     else
@@ -178,7 +228,14 @@ namespace Tyuiu.ShmidtAA.Sprint2.Task5.V10.Lib
                         }
                         else
                         {
-                            res = $"{n - 1}.{m}.{g}";
+                            if (n > 10)
+                            {
+                                res = $"{n - 1}.0{m}.{g}";
+                            }
+                            else
+                            {
+                                res = $"0{n - 1}.0{m}.{g}";
+                            }
                         }
                     }
                     else
@@ -197,7 +254,14 @@ namespace Tyuiu.ShmidtAA.Sprint2.Task5.V10.Lib
                         }
                         else
                         {
-                            res = $"{n - 1}.{m}.{g}";
+                            if (n > 10)
+                            {
+                                res = $"{n - 1}.{m}.{g}";
+                            }
+                            else
+                            {
+                                res = $"0{n - 1}.{m}.{g}";
+                            }
                         }
                     }
                     else
@@ -216,7 +280,14 @@ namespace Tyuiu.ShmidtAA.Sprint2.Task5.V10.Lib
                         }
                         else
                         {
-                            res = $"{n - 1}.{m}.{g}";
+                            if (n > 10)
+                            {
+                                res = $"{n - 1}.{m}.{g}";
+                            }
+                            else
+                            {
+                                res = $"0{n - 1}.{m}.{g}";
+                            }
                         }
                     }
                     else
@@ -236,7 +307,14 @@ namespace Tyuiu.ShmidtAA.Sprint2.Task5.V10.Lib
                         }
                         else
                         {
-                            res = $"{n - 1}.{m}.{g}";
+                            if (n > 10)
+                            {
+                                res = $"{n - 1}.{m}.{g}";
+                            }
+                            else
+                            {
+                                res = $"0{n - 1}.{m}.{g}";
+                            }
                         }
                     }
                     else
