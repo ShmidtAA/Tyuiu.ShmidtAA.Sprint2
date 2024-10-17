@@ -8,9 +8,6 @@ namespace Tyuiu.ShmidtAA.Sprint2.Task7.V9.Lib
             if ((0.5 >= Math.Sin(x)) && x > 0 && y > 0)
             {
                 return true;
-            }else if (x == 0.5 && y ==0.5)
-            {
-                return true ;
             }
 
             else { 
