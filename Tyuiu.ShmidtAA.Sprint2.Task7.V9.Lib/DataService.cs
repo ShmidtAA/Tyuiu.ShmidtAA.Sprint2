@@ -11,7 +11,7 @@ namespace Tyuiu.ShmidtAA.Sprint2.Task7.V9.Lib
             }
             else if (x == 0.5 && y == 0.5)
             {
-                return true;
+                return false;
             }
 
             else { 
