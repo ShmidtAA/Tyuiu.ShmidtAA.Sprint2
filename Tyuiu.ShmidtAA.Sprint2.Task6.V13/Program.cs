@@ -22,6 +22,28 @@ namespace Tyuiu.ShmidtAA.Sprint2.Task6.V13
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:   Пользователь вводит int year,month,day               *");
             Console.WriteLine("***************************************************************************");
+            DataService ds = new DataService();
+            Console.Write("Введите Год: ");
+            int year = Convert.ToInt32(Console.ReadLine());
+
+
+            Console.Write("Введите Месяц: ");
+            int month = Convert.ToInt32(Console.ReadLine());
+
+
+
+            Console.Write("Введите День: ");
+            int day = Convert.ToInt32(Console.ReadLine());
+
+            string res = ds.FindDateOfNextDay(year, month, day);
+            Console.WriteLine($"Вы ввели: {day}.{month}.{year}");
+            Console.WriteLine("*                                                                         *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("*                                                                         *");
+            Console.WriteLine($" Завтрашняя дата: {res}");
+            Console.WriteLine("*                                                                         *");
+            Console.WriteLine("***************************************************************************");
 
 
         }
